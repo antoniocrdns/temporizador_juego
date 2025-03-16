@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "temporizador",
+    "name": "Juego Temporizador",
     "slug": "temporizador",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/10-2.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/10-2.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.antoniocrdns.temporizador"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fea69cbe-0cf5-4085-a826-d2c75c986df9"
+      }
     }
   }
 }

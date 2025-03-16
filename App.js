@@ -94,7 +94,7 @@ export default function App() {
             </Text>
             <Text style={styles.modalText}>
               El cronómetro comenzará contando desde 0, y después desaparecerá cuando llegue a 3 segundos.
-              Luego, tendrás que presionar el botón "Detener" en el momento que creas que han pasado 10 segundos.
+              Luego, tendrás que presionar el botón "Detener" en el momento que creas que han pasado 10 segundos para ganar.
             </Text>
             <Button title="Aceptar" onPress={closeModal} />
           </View>
